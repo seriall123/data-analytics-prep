@@ -1,0 +1,7 @@
+# function to calculate the average of a list of numbers
+def calculate_average(numbers):
+    if len(numbers) == 0:
+        return 0
+    total = sum(numbers)
+    average = total / len(numbers)
+    return average
